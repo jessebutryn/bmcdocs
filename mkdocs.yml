@@ -34,18 +34,6 @@ theme:
     - content.code.annotation
     - content.code.copy
 
-# nav:
-#   - Home: index.md
-#   - 'Dell :fontawesome-solid-server:':
-#     - 'RACADM :material-console:':
-#       - Overview: dell/racadm/index.md
-#       - 'Get Command :material-download:': dell/racadm/get.md
-#       - 'Set Command :material-upload:': dell/racadm/set.md
-#       - 'Subcommands :material-menu:': dell/racadm/subcommands/
-#   - 'Supermicro :fontawesome-solid-microchip:':
-#     - 'SUM :material-package-variant:': supermicro/sum/
-#     - 'SAA :material-shield-check:': supermicro/saa.md
-
 plugins:
   - search
   - awesome-pages
