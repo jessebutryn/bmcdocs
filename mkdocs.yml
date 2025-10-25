@@ -1,0 +1,25 @@
+site_name: BMC Tools Documentation
+site_description: Documentation for vendor BMC tools like Dell RACADM, Supermicro SUM/SAA, etc.
+site_author: Jesse Butryn
+
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: blue
+
+# nav:
+#   - Home: index.md
+#   - Dell:
+#     - racadm:
+#       - Overview: dell/racadm/index.md
+#       - Get Command: dell/racadm/get.md
+#       - Set Command: dell/racadm/set.md
+#       - Subcommands: dell/racadm/subcommands
+#   - Supermicro:
+#     - SUM: supermicro/sum.md
+#     - SAA: supermicro/saa.md
+
+plugins:
+  - search
+  - awesome-pages
