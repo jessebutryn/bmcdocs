@@ -1,25 +1,42 @@
-site_name: BMC Tools Documentation
+site_name: BMCDocs
 site_description: Documentation for vendor BMC tools like Dell RACADM, Supermicro SUM/SAA, etc.
 site_author: Jesse Butryn
 
 theme:
   name: material
   palette:
-    primary: blue
-    accent: blue
-
-# nav:
-#   - Home: index.md
-#   - Dell:
-#     - racadm:
-#       - Overview: dell/racadm/index.md
-#       - Get Command: dell/racadm/get.md
-#       - Set Command: dell/racadm/set.md
-#       - Subcommands: dell/racadm/subcommands
-#   - Supermicro:
-#     - SUM: supermicro/sum.md
-#     - SAA: supermicro/saa.md
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.prune
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
 
 plugins:
   - search
   - awesome-pages
+
+extra_css:
+  - stylesheets/extra.css
