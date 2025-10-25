@@ -50,23 +50,23 @@ For Repository update:
 - `-p: <password for CIFS share>` — Specifies password of the remote share that stores the update file.
 - `-l: <location>` — Specifies network share location (CIFS/NFS/HTTP/HTTPS/FTP/TFTP), that stores the update file.
 - `-a: <restart>` — This option indicates if the server should be restarted after the update from repository operation completes. Must be one of the below:
-  - TRUE: restart after update completes
-  - FALSE: do not restart after update completes
+    - TRUE: restart after update completes
+    - FALSE: do not restart after update completes
 - `-t: <Repository type>` — Specifies the type of repository being used for the update. Must be one of the below:
-  - FTP: Repository is FTP
-  - TFTP: Repository is TFTP
-  - HTTP: Repository is HTTP
-  - HTTPS: Repository is HTTPS
-  - CIFS: Repository is CIFS
-  - NFS: Repository is NFS
+    - FTP: Repository is FTP
+    - TFTP: Repository is TFTP
+    - HTTP: Repository is HTTP
+    - HTTPS: Repository is HTTPS
+    - CIFS: Repository is CIFS
+    - NFS: Repository is NFS
 - `-e: <FTP server with the path to the catalog file>` — Specifies the Server path for the FTP, TFTP, HTTP, and HTTPS.
 - `-ph: <proxy ip>` — Specifies the IP address of the proxy server.
 - `-pu: <proxy user>` — Specifies the user name for proxy credentials.
 - `-pp: <proxy pass>` — Specifies the password for proxy credentials.
 - `-po: <proxy port>` — Specifies the port for proxy server.
 - `-pt: <proxy type>` — Specifies the proxy type. Must be one of the below:
-  - HTTP: Proxy is HTTP
-  - SOCKS4: Proxy is SOCKS4
+    - HTTP: Proxy is HTTP
+    - SOCKS4: Proxy is SOCKS4
 
 ## Output/Example
 
