@@ -1,5 +1,3 @@
-# BMC Docs
-
 Welcome to the BMC Tools Documentation site. This site provides comprehensive documentation for various vendor BMC (Baseboard Management Controller) tools used in server management.
 
 ## Supported Tools

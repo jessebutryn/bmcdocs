@@ -1,0 +1,31 @@
+/* Custom CSS to fix navigation font sizing */
+
+/* Make top-level navigation items larger - direct children of main nav */
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link,
+.md-nav--primary > .md-nav__list > .md-nav__item > label.md-nav__link {
+  font-size: 1.3em !important;
+  font-weight: 600 !important;
+}
+
+/* Make second-level navigation items normal size */
+.md-nav--primary .md-nav__list .md-nav__list > .md-nav__item > .md-nav__link {
+  font-size: 1em !important;
+  font-weight: 500 !important;
+}
+
+/* Make third-level and deeper navigation items smaller */
+.md-nav--primary .md-nav__list .md-nav__list .md-nav__list > .md-nav__item > .md-nav__link {
+  font-size: 0.95em !important;
+  font-weight: 400 !important;
+}
+
+/* Ensure proper spacing for navigation items */
+.md-nav__item {
+  margin-bottom: 0.25rem;
+}
+
+/* Make the site name in header bigger */
+.md-nav__title {
+  font-size: 2em !important;
+  font-weight: 700 !important;
+}
