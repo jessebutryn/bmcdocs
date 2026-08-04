@@ -24,6 +24,26 @@
   margin-bottom: 0.25rem;
 }
 
+/* Style section index pages */
+.md-content__inner h1:first-child {
+  border-bottom: 3px solid var(--md-primary-fg-color);
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Highlight current section in navigation */
+.md-nav__link--active {
+  font-weight: 700 !important;
+}
+
+/* Add subtle background to section navigation items */
+.md-nav__item--section > .md-nav__link {
+  background-color: var(--md-default-fg-color--lightest);
+  border-radius: 0.25rem;
+  margin: 0.25rem 0;
+  padding: 0.5rem 0.75rem;
+}
+
 /* Make the site name in header bigger */
 .md-nav__title {
   font-size: 2em !important;
