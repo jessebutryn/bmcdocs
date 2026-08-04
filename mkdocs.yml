@@ -28,6 +28,7 @@ theme:
     - navigation.expand
     - navigation.prune
     - navigation.top
+    - navigation.indexes
     - search.suggest
     - search.highlight
     - content.tabs.link
